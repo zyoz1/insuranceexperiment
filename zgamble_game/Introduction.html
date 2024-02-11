@@ -1,0 +1,15 @@
+{% extends "global/Page.html" %}
+{% load static otree %}
+
+{% block content %}
+    <h2>Welcome to the Experiment</h2>
+    <p>Today you will make choices about a series of gambles. Each gamble has the possibility of a negative outcome. In each gamble, you will be allowed to buy insurance against the negative outcome, although you are not required to buy the insurance.</p>
+    
+    <p>Each gamble consists of drawing one ball from a basket. Each basket contains a different mixture of orange and white balls. If a white ball is drawn, no loss occurs. If an orange ball is drawn, this will result in a loss.</p>
+    
+    <p>Any loss you incur will be paid out of the money you earned by taking the Current Events Quiz, unless you choose to purchase insurance. Please read the information provided to you in each gamble carefully before submitting your choice.</p>
+
+    <p><strong>Note:</strong> Although you will make decisions for 18 gambles during this part of the experiment, only one of them will be used to determine your earnings.</p>
+    
+    {% next_button %}
+{% endblock %}

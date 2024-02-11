@@ -1,0 +1,40 @@
+{% extends "global/Page.html" %}
+{% load static otree %}
+
+{% block content %}
+    <h2>Your Results</h2>
+    
+    {% if participant.vars.selected_round %}
+        <p>The selected gamble for determining your earnings was Gamble {{ participant.vars.selected_round }}.</p>
+    {% endif %}
+
+    {% if participant.vars.selected_outcome %}
+        {% with selected_outcome=participant.vars.selected_outcome %}
+        
+        
+            <p>Your decision in this gamble was to 
+                {% if selected_outcome.insurance_purchased %}
+                    purchase insurance.
+                {% else %}
+                    not purchase insurance.
+                {% endif %}
+            </p>
+            
+            <p>As a result, 
+                {% if selected_outcome.ball_drawn == "orange" %}
+                    an orange ball was drawn, and 
+                    {% if selected_outcome.insurance_purchased %}
+                        your loss was covered by insurance.
+                    {% else %}
+                        you incurred a loss of ${{ selected_outcome.loss_amount }}.
+                    {% endif %}
+                {% else %}
+                    a white ball was drawn, and you incurred no loss.
+                {% endif %}
+            </p>
+        
+        {% endwith %}
+    {% endif %}
+    
+    <p><strong>Your final earnings from this part of the experiment are ${{ player.payoff }}</strong>.</p>
+{% endblock %}

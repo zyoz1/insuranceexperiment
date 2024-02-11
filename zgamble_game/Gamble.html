@@ -1,0 +1,32 @@
+{% extends "global/Page.html" %}
+{% load static otree %}
+
+{% block content %}
+    <div class="container">
+        <h2>Gamble {{ gamble_number }}</h2>
+        <p>In this round, the basket contains:</p>
+        <ul>
+            <li><strong>{{ orange_balls }} orange balls:</strong> Drawing an orange ball results in a loss.</li>
+            <li><strong>{{ white_balls }} white balls:</strong> Drawing a white ball results in no loss.</li>
+        </ul>
+        <p><strong>Loss if an orange ball is drawn:</strong> ${{ loss_amount }}</p>
+        <p><strong>Insurance Premium:</strong> ${{ insurance_cost }}</p>
+        
+        <p>Do you want to purchase insurance for ${{ insurance_cost }}? Indicate your answer by selecting Yes or No below.</p>
+        
+        <form method="post">
+            <div>
+                {{ form.insurance_purchased.label }}<br>
+                {{ form.insurance_purchased }}
+                {% if form.insurance_purchased.errors %}
+                    {{ form.insurance_purchased.errors }} <!-- Display any errors here -->
+                {% endif %}
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+        
+        <p>If you choose to purchase insurance for this gamble, you will pay for it before we draw a ball from this basket.</p>
+        
+        <p><strong>Note:</strong> Only your insurance decision on this sheet will be considered; and if you purchase insurance for this gamble, you will pay for it before we draw a ball from this basket.</p>
+    </div>
+{% endblock %}
