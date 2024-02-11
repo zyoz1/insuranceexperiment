@@ -12,80 +12,94 @@ The following questions test your knowledge of current events, American history,
 If you answer 8 or more questions correctly, you will be paid $60.
 If you answer 7 or fewer questions correctly, you will be paid $30
 
-______1. The current Secretary of State is
+1. The current Secretary of State is
 a. Dick Cheney
 b. John Snow
 c. Donald Rumsfeld
 d. Condoleezza Rice
-______2. The winner of the 2006 Superbowl was
+
+2. The winner of the 2006 Superbowl was
 a. Pittsburg Steelers
 b. Indianapolis Colts
 c. Carolina Panthers
 d. Seattle Seahawks
-______3. Which of the following states borders the Gulf of Mexico?
+
+3. Which of the following states borders the Gulf of Mexico?
 a. California
 b. Texas
 c. Maine
 d. North Carolina
-______4. Who was the last President to die in office?
+
+4. Who was the last President to die in office?
 a. John Kennedy
 b. Bill Clinton
 c. Gerald Ford
 d. Ronald Reagan
-______5. What is the capital of Arkansas?
+
+5. What is the capital of Arkansas?
 a. Pierre
 b. Sacramento
 c. Albany
 d. Little Rock
-______6. Which of the following was one of the first 13 colonies?
+
+6. Which of the following was one of the first 13 colonies?
 a. Montana
 b. Virginia
 c. Louisiana
 d. Texas
-______7. Who is the host of American Idol?
+
+7. Who is the host of American Idol?
 a. Howie Mandel
 b. Regis Philbin
 c. Jeff Probst
 d. Ryan Seacrest
-______8. Which of the following toys was named for a U.S. President?
+
+8. Which of the following toys was named for a U.S. President?
 a. Jacks
 b. Raggedy Andy
 c. Marco Polo
 d. Teddy bear
-______9. “Only you can prevent forest fires.” was the slogan of
+
+9. “Only you can prevent forest fires.” was the slogan of
 a. Toucan Sam
 b. Polly the Parrot
 c. Woodsy the Owl
 d. Smokey the Bear
-______10. Which of the following was an ally of the United States in World
+
+10. Which of the following was an ally of the United States in World
 War II?
 a. Germany
 b. Switzerland
 c. Italy
 d. Great Britain
-______11. Which of the following is a movie about twin girls raised
+
+11. Which of the following is a movie about twin girls raised
 separately who meet at camp and eventually persuade their parents to
 reunite?
 a. Freaky Friday
 b. The Pajama Game
 c. The Parent Trap
 d. Yours, Mine and Ours
-______12. Which television network carries the OC?
+
+12. Which television network carries the OC?
 a. Fox
 b. PBS
 c. HBO
 d. MTV
-______13. “Scrubs” is a television series centered around
+
+13. “Scrubs” is a television series centered around
 a. a carwash
 b. a hospital
 c. a baseball team
 d. hotel maid service
-______14. Who is credited with inventing the light bulb?
+
+14. Who is credited with inventing the light bulb?
 a. Eli Whitney
 b. OprahWinfrey
 c. Thomas Edison
 d. Enrico Marconi
-______15. “First in Flight” is the slogan of which of the following states?
+
+15. “First in Flight” is the slogan of which of the following states?
 a. Texas
 b. Montana
 c. Maine
